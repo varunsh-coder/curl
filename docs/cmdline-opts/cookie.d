@@ -25,7 +25,7 @@ The file format of the file to read cookies from should be plain HTTP headers
 The file specified with --cookie is only used as input. No cookies will be
 written to the file. To store cookies, use the --cookie-jar option.
 
-If you use the Set-Cookie file format and don't specify a domain then the
+If you use the Set-Cookie file format and do not specify a domain then the
 cookie is not sent since the domain will never match. To address this, set a
 domain in Set-Cookie line (doing that will include sub-domains) or preferably:
 use the Netscape format.

@@ -44,7 +44,7 @@ match.
 If curl was built with support for "MultiSSL", meaning that it has built-in
 support for more than one TLS backend, this environment variable can be set to
 the case insensitive name of the particular backend to use when curl is
-invoked. Setting a name that isn't a built-in alternative will make curl
+invoked. Setting a name that is not a built-in alternative will make curl
 stay with the default.
 
 SSL backend names (case-insensitive): bearssl, gnutls, gskit, mbedtls,
@@ -95,9 +95,9 @@ A feature or option that was needed to perform the desired request was not
 enabled or was explicitly disabled at build-time. To make curl able to do
 this, you probably need another build of libcurl!
 .IP 5
-Couldn't resolve proxy. The given proxy host could not be resolved.
+Could not resolve proxy. The given proxy host could not be resolved.
 .IP 6
-Couldn't resolve host. The given remote host could not be resolved.
+Could not resolve host. The given remote host could not be resolved.
 .IP 7
 Failed to connect to host.
 .IP 8
@@ -120,13 +120,13 @@ FTP weird PASV reply, Curl couldn't parse the reply sent to the PASV request.
 .IP 14
 FTP weird 227 format. Curl couldn't parse the 227-line the server sent.
 .IP 15
-FTP can't get host. Couldn't resolve the host IP we got in the 227-line.
+FTP cannot use host. Could not resolve the host IP we got in the 227-line.
 .IP 16
 HTTP/2 error. A problem was detected in the HTTP2 framing layer. This is
 somewhat generic and can be one out of several problems, see the error message
 for details.
 .IP 17
-FTP couldn't set binary. Couldn't change transfer method to binary.
+FTP couldn't set binary. Could not change transfer method to binary.
 .IP 18
 Partial file. Only a part of the file was transferred.
 .IP 19
@@ -163,7 +163,7 @@ HTTP post error. Internal post-request generation error.
 .IP 35
 SSL connect error. The SSL handshaking failed.
 .IP 36
-Bad download resume. Couldn't continue an earlier aborted download.
+Bad download resume. Could not continue an earlier aborted download.
 .IP 37
 FILE couldn't read file. Failed to open the file. Permissions?
 .IP 38
@@ -201,7 +201,7 @@ Failure in receiving network data.
 .IP 58
 Problem with the local certificate.
 .IP 59
-Couldn't use specified SSL cipher.
+Could not use specified SSL cipher.
 .IP 60
 Peer certificate cannot be authenticated with known CA certificates.
 .IP 61
